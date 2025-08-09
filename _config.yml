@@ -1,0 +1,8 @@
+title: "Igor Nabokov — iOS Engineer"
+description: "Swift • SwiftUI • Objective-C • CI/CD • Mobile Architecture"
+baseurl: ""
+url: ""
+include:
+  - favicon.svg
+  - favicon-32.png
+  - apple-touch-icon.png
