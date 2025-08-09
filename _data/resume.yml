@@ -1,0 +1,73 @@
+title: Igor Nabokov — iOS Engineer
+subtitle: Swift • SwiftUI • Objective-C • CI/CD • Mobile Architecture
+summary:
+  - Passionate iOS Developer with 10+ years of hands-on experience building scalable, user-friendly, and high-performance mobile applications.
+  - Specializes in Swift, Objective-C, SwiftUI, and mobile architecture. Proven track record of enhancing CI/CD pipelines, improving code quality, and leading migrations from Objective-C to Swift.
+  - Experienced in cross-functional collaboration, technical interviewing, and mentoring.
+experience:
+  - company: EPAM Systems
+    role: iOS Engineer
+    period: Aug 2019 – Present
+    bullets:
+      - Introduced and promoted Swift Concurrency to modernize legacy code
+      - Migrated components from Objective-C to Swift
+      - Created reusable UI components and error-handling infrastructure
+      - Enhanced CI/CD, introduced unit tests, and improved coverage
+      - Conducted technical interviews and mentored juniors
+  - company: Damoov
+    role: iOS Developer
+    period: Apr 2018 – Jul 2019
+    bullets:
+      - Refactored telematics system with new core framework
+      - Automated releases via Fastlane, CocoaPods, Azure
+      - Developed features like real-time tracking, S3 logging
+      - Created public framework for integration
+  - company: 65apps
+    role: iOS Developer
+    period: Mar 2016 – Mar 2018
+    bullets:
+      - Built apps with Apple Pay, 3D modeling, Maps
+      - Led distributed teams and technical interviews
+  - company: DIRECTUM
+    role: Various Roles
+    period: 2007 – 2016
+    bullets:
+      - "iOS Developer (Xamarin): Built ECM iOS client"
+      - "Team Lead: Led CRM backend integration"
+      - ".NET Developer: Built ECM platform (.NET, WCF)"
+      - "QA Engineer: Manual + automated testing"
+education:
+  school: Izhevsk State Technical University
+  degree: "Engineer's Degree, Computer Science"
+  years: "2003 – 2011"
+contact:
+  email: cv@slimski.com
+  location: Edison, NJ, USA
+  linkedin: https://www.linkedin.com/in/igor-nabokov
+skills:
+  - iOS Development
+  - Swift
+  - SwiftUI
+  - Objective-C
+  - UIKit
+  - CI/CD
+  - Mobile Architecture
+  - MVVM
+  - Code Refactoring
+  - CocoaPods
+  - SwiftPM
+  - Fastlane
+  - Telematics
+  - Core Location
+  - Unit Testing
+  - Snapshot Testing
+  - UI Testing
+  - XCTest
+  - Combine
+  - "Swift Concurrency / async-await"
+  - Background Tasks
+  - Core Data
+  - Git
+  - GitHub
+  - GitHub Actions
+  - Firebase Crashlytics

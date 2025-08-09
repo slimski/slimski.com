@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <title>{{ site.data.resume.title }}</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+  <meta property="og:title" content="{{ site.data.resume.title }}">
+  <meta property="og:description" content="{{ site.data.resume.subtitle }}">
+  <meta property="og:type" content="profile">
+  <meta name="twitter:card" content="summary">
+  <link rel="me" href="{{ site.data.resume.contact.linkedin }}">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Igor Nabokov",
+      "jobTitle": "iOS Engineer",
+      "url": "https://slimski.com",
+      "email": "mailto:{{ site.data.resume.contact.email }}",
+      "knowsAbout": ["Swift","SwiftUI","Objective-C","CI/CD","Mobile Architecture"],
+      "sameAs": ["{{ site.data.resume.contact.linkedin }}"]
+    }
+    </script>
+    <script src="https://cdn.counter.dev/script.js" data-id="17a208e3-7610-4baa-99a8-c64365eb1284" data-utcoffset="-4"></script>
+</head>
+<body>
+  <main class="main two-column">
+    <div class="left-col">
+      <header class="header">
+        <div>
+          <h1>{{ site.data.resume.title }}</h1>
+          <p class="subtitle">{{ site.data.resume.subtitle }}</p>
+        </div>
+      </header>
+
+      <section class="section">
+        {% for paragraph in site.data.resume.summary %}
+        <p class="{% if forloop.first %}lead{% endif %}">{{ paragraph }}</p>
+        {% endfor %}
+      </section>
+
+      <section class="section experience">
+        <h2>Experience</h2>
+        {% for job in site.data.resume.experience %}
+        <div class="item">
+          <span class="company">{{ job.company }}</span>
+          <span class="role">{{ job.role }}</span>
+          <span class="period">({{ job.period }})</span>
+          <ul>
+            {% for bullet in job.bullets %}
+            <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+      </section>
+
+      <section class="section">
+        <h2>Education</h2>
+        <p>
+          <strong>{{ site.data.resume.education.school }}</strong><br />
+          {{ site.data.resume.education.degree }} ({{ site.data.resume.education.years }})
+        </p>
+      </section>
+
+    </div>
+    <aside class="right-col">
+      <section class="section">
+        <h2>Contact</h2>
+        <p><a href="mailto:{{ site.data.resume.contact.email }}">{{ site.data.resume.contact.email }}</a></p>
+        <p>{{ site.data.resume.contact.location }}<br>
+          <a href="{{ site.data.resume.contact.linkedin }}" target="_blank" rel="noopener">LinkedIn</a><br>
+          <a href="#" onclick="window.print();return false;">Download PDF</a>
+        </p>
+      </section>
+
+      <section class="section">
+        <div>
+          <h2>Skills</h2>
+          <div class="chips">
+            {% for skill in site.data.resume.skills %}
+            <span class="chip">{{ skill }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    </aside>
+
+    <footer class="footer">© {{ site.time | date: '%Y' }} Igor Nabokov</footer>
+  </main>
+</body>
+</html>
