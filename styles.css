@@ -44,7 +44,7 @@ small, .muted{color:var(--muted)}
 .experience .item .period{font-size:.9rem}
 
 .grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:12px}
-.chips{display:flex; flex-wrap:wrap; gap:8px}
+.chips{display:flex; flex-wrap:wrap; gap:8px; margin:0; padding:0; list-style:none}
 .chip{padding:6px 10px; border-radius:999px; background:var(--chip); border:1px solid var(--border); font-size:.92rem}
 
 .footer{margin:24px 0; font-size:.9rem; color:var(--muted)}
@@ -58,7 +58,9 @@ small, .muted{color:var(--muted)}
   /* Remove borders/padding only for main content sections on the left */
   .left-col .section{ margin:16px 0; padding:0; background:#fff; border:none; box-shadow:none; }
   /* Keep right sidebar sections styled, but disable sticky in print */
-  .right-col .section{ position:static; }
+  .right-col .section{ position:static; margin:8px 0; padding:0; background:#fff; border:none; }
+
+  .skills-section{ margin:1px 0; padding:0; border:none; background:#fff; }
 
   a[href^="http"]::after{ content:""; } 
   .subtitle{ margin-top:4px; }
@@ -66,6 +68,9 @@ small, .muted{color:var(--muted)}
   h2, h3 { page-break-after:avoid; }
   .experience .item { page-break-inside:avoid; }
   .analytics-note{ display:none; }
+
+  .chips{display:block; columns:2; column-gap:16px; margin:10px 0 0 1.1rem; padding:0; list-style:disc;}
+  .chip{display:list-item; break-inside:avoid; margin:0; padding:0; border:none; background:none; font-size:.8rem;}
 }
 
 

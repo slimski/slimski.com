@@ -82,14 +82,14 @@
         </p>
       </section>
 
-      <section class="section">
+      <section class="section skills-section">
         <div>
           <h2>Skills</h2>
-          <div class="chips">
+          <ul class="chips">
             {% for skill in site.data.resume.skills %}
-            <span class="chip">{{ skill }}</span>
+            <li class="chip">{{ skill }}</li>
             {% endfor %}
-          </div>
+          </ul>
         </div>
       </section>
     </aside>
