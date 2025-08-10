@@ -48,6 +48,7 @@ small, .muted{color:var(--muted)}
 .chip{padding:6px 10px; border-radius:999px; background:var(--chip); border:1px solid var(--border); font-size:.92rem}
 
 .footer{margin:24px 0; font-size:.9rem; color:var(--muted)}
+.footer p{margin:0}
 
 @media print {
   .two-column { display:block; }
@@ -64,6 +65,7 @@ small, .muted{color:var(--muted)}
 
   h2, h3 { page-break-after:avoid; }
   .experience .item { page-break-inside:avoid; }
+  .analytics-note{ display:none; }
 }
 
 
