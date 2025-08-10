@@ -67,7 +67,7 @@ small, .muted{color:var(--muted)}
 
   h2, h3 { page-break-after:avoid; }
   .experience .item { page-break-inside:avoid; }
-  .analytics-note{ display:none; }
+  .footer{ display:none; }
 
   .chips{display:block; columns:2; column-gap:16px; margin:10px 0 0 1.1rem; padding:0; list-style:disc;}
   .chip{display:list-item; break-inside:avoid; margin:0; padding:0; border:none; background:none; font-size:.8rem;}
