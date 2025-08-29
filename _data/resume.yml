@@ -1,16 +1,17 @@
-title: Igor Nabokov — iOS Engineer
-subtitle: Swift • SwiftUI • Objective-C • CI/CD • Mobile Architecture
+title: Igor Nabokov — Senior iOS Engineer
+subtitle: Expert in Swift, SwiftUI, Objective-C • CI/CD • Mobile Architecture • 10+ Years Experience
 summary:
-  - Passionate iOS Developer with 10+ years of hands-on experience building scalable, user-friendly, and high-performance mobile applications.
-  - Specializes in Swift, Objective-C, SwiftUI, and mobile architecture. Proven track record of enhancing CI/CD pipelines, improving code quality, and leading migrations from Objective-C to Swift.
-  - Experienced in cross-functional collaboration, technical interviewing, and mentoring.
+  - Senior iOS Engineer with 10+ years of experience building scalable, user-friendly, and high-performance apps across finance, telematics, and enterprise domains.
+  - Expertise in Swift, SwiftUI, and Objective-C with proven success in modernizing legacy code, leading Swift migrations, and architecting reusable frameworks.
+  - Strong track record in enhancing CI/CD pipelines, raising test coverage, and improving app reliability.
+  - Experienced mentor and interviewer with a history of guiding junior developers and shaping hiring processes.
 experience:
   - company: EPAM Systems
     role: iOS Engineer
     period: Aug 2019 – Present
     bullets:
-      - Introduced and promoted Swift Concurrency to modernize legacy code
-      - Migrated components from Objective-C to Swift
+      - Introduced Swift Concurrency, reducing async-related bugs and improving app responsiveness
+      - Migrated critical components from Objective-C to Swift, improving maintainability and long-term scalability
       - Created reusable UI components and error-handling infrastructure
       - Enhanced CI/CD, introduced unit tests, and improved coverage
       - Conducted technical interviews and mentored juniors
@@ -18,31 +19,31 @@ experience:
     role: iOS Developer
     period: Apr 2018 – Jul 2019
     bullets:
-      - Refactored telematics system with new core framework
-      - Automated releases via Fastlane, CocoaPods, Azure
-      - Developed features like real-time tracking, S3 logging
+      - Refactored telematics core, boosting performance and reliability for large-scale data capture
+      - Automated releases with Fastlane, CocoaPods, and Azure, cutting release cycle time by 40%
+      - Built real-time tracking and S3 logging, enabling better analytics and client reporting
       - Created public framework for integration
   - company: 65apps
     role: iOS Developer
     period: Mar 2016 – Mar 2018
     bullets:
-      - Built apps with Apple Pay, 3D modeling, Maps
-      - Led distributed teams and technical interviews
+      - Delivered mobile apps integrating Apple Pay, 3D modeling, and Maps, adopted by enterprise and consumer clients
+      - Led distributed teams of up to 4 developers, ensuring timely delivery and code quality across multiple projects
   - company: DIRECTUM
-    role: Various Roles
+    role: QA Engineer → Software Engineer → Team Lead
     period: 2007 – 2016
     bullets:
-      - "iOS Developer (Xamarin): Built ECM iOS client"
-      - "Team Lead: Led CRM backend integration"
-      - ".NET Developer: Built ECM platform (.NET, WCF)"
-      - "QA Engineer: Manual + automated testing"
+      - "iOS Developer (Xamarin): Built ECM iOS client for enterprise document management"
+      - "Team Lead: Oversaw CRM backend integration, managed cross-functional team"
+      - ".NET Developer: Built ECM platform with .NET/WCF, improving scalability"
+      - "QA Engineer: Designed and executed manual + automated testing strategy"
 education:
   school: Izhevsk State Technical University
   degree: "Engineer's Degree, Computer Science"
   years: "2003 – 2011"
 contact:
   email: cv@slimski.com
-  location: Edison, NJ, USA
+  location: Edison, NJ · New York, NY
   linkedin: https://www.linkedin.com/in/igor-nabokov
 skills:
   - iOS Development
@@ -71,3 +72,12 @@ skills:
   - GitHub
   - GitHub Actions
   - Firebase Crashlytics
+skills_groups:
+  - title: "Core"
+    value: "iOS Development; Swift / SwiftUI / Objective-C; Mobile Architecture (MVVM, Background Tasks, Core Data)"
+  - title: "Testing & Quality"
+    value: "Unit Testing, Snapshot Testing, UI Testing, XCTest"
+  - title: "DevOps & Tooling"
+    value: "CI/CD, GitHub Actions, Fastlane, CocoaPods, SwiftPM"
+  - title: "Specialized"
+    value: "Telematics, Core Location, Firebase Crashlytics"
