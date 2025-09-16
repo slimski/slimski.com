@@ -1,7 +1,7 @@
-title: Igor Nabokov — Senior iOS Engineer
+title: Igor Nabokov — Lead iOS Engineer
 subtitle: Expert in Swift, SwiftUI, Objective-C • CI/CD • Mobile Architecture • 10+ Years Experience
 summary:
-  - Senior iOS Engineer with 10+ years of experience building scalable, user-friendly, and high-performance apps across finance, telematics, and enterprise domains.
+  - Lead iOS Engineer with 10+ years of experience building scalable, user-friendly, and high-performance apps across finance, telematics, and enterprise domains.
   - Expertise in Swift, SwiftUI, and Objective-C with proven success in modernizing legacy code, leading Swift migrations, and architecting reusable frameworks.
   - Strong track record in enhancing CI/CD pipelines, raising test coverage, and improving app reliability.
   - Experienced mentor and interviewer with a history of guiding junior developers and shaping hiring processes.
@@ -76,7 +76,7 @@ skills_groups:
   - title: "Core"
     value: "iOS Development; Swift / SwiftUI / Objective-C; Mobile Architecture (MVVM, Background Tasks, Core Data)"
   - title: "Testing & Quality"
-    value: "Unit Testing, Snapshot Testing, UI Testing, XCTest"
+    value: "Unit Testing, Snapshot Testing, UI Testing, A/B Testing, XCTest"
   - title: "DevOps & Tooling"
     value: "CI/CD, GitHub Actions, Fastlane, CocoaPods, SwiftPM"
   - title: "Specialized"
