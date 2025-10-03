@@ -91,6 +91,27 @@
               <ul>
                 {% for b in job.bullets %}<li>{{ b }}</li>{% endfor %}
               </ul>
+              {% if job.external_sections %}
+                {% for section in job.external_sections %}
+                  <div class="job-subsection">
+                    <h4>{{ section.title }}</h4>
+                    <ul>
+                      {% for client in section.clients %}
+                        <li>
+                          <strong>{{ client.name }}</strong>
+                          {% if client.engagements %}
+                            <ul>
+                              {% for engagement in client.engagements %}
+                                <li>{{ engagement }}</li>
+                              {% endfor %}
+                            </ul>
+                          {% endif %}
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% endfor %}
+              {% endif %}
             </div>
           {% endfor %}
         </section>

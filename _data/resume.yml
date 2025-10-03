@@ -12,15 +12,33 @@ experience:
     bullets:
       - Introduced Swift Concurrency, reducing async-related bugs and improving app responsiveness
       - Migrated critical components from Objective-C to Swift, improving maintainability and long-term scalability
-      - Created reusable UI components and error-handling infrastructure
+      - Led migration of legacy UIKit components to SwiftUI, modernizing app architecture and improving UI consistency
+      - Built reusable UI components and error-handling system
       - Enhanced CI/CD, introduced unit tests, and improved coverage
       - Conducted technical interviews and mentored juniors
+    external_sections:
+      - title: "EPAM Systems — Key Client Engagements"
+        clients:
+          - name: "American Express (Banking App)"
+            engagements:
+              - "Refactored screens and built reusable UI components for consistent, scalable design"
+              - "Eliminated invalid UI states by introducing enum-based models and safer state handling"
+              - "Improved build times and migrated Tuist settings for new Xcode versions"
+              - "Collaborated with designers and backend teams to align on UI/UX and API contracts"
+              - "Implemented tests with Swift Testing as part of modernizing the codebase"
+
+          - name: "Vanguard (Investing App)"
+            engagements:
+              - "Developed new application with thousands of daily active users"
+              - "Implemented shared UI components and generic error state handling"
+              - "Refactored card component with safer optionals"
+              - "Introduced Swift Concurrency in production code"
   - company: Damoov
     role: iOS Developer
     period: Apr 2018 – Jul 2019
     bullets:
-      - Refactored telematics core, boosting performance and reliability for large-scale data capture
-      - Automated releases with Fastlane, CocoaPods, and Azure, cutting release cycle time by 40%
+      - Refactored telematics core, boosting performance and reliability for large-scale capture
+      - Automated releases with Fastlane, CocoaPods & Azure, reducing release time by 40%
       - Built real-time tracking and S3 logging, enabling better analytics and client reporting
       - Created public framework for integration
   - company: 65apps
